@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-@WebServlet(urlPatterns = {"/"})
+@WebServlet(name = "genPswServlet",urlPatterns = {"/"})
 public class GenPswServlet extends HttpServlet {
     private static final int SIZE_OF_PASSWORD = 8;
     private static final int SIZE_OF_COUNT = 10;
